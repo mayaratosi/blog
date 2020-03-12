@@ -1,0 +1,76 @@
+.bg-title {
+    background: url('../imagem/fundo.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    color: black;
+}
+
+.bg-bio {
+    background-color: cornsilk;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.text-title {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.efeito {
+    border: none;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+    line-height: 5px;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+    /*não inteferir no resultado*/
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito1 {
+    background-color: rgb(88, 85, 81);
+}
+
+.efeito1:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 47px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+
+.efeito1:hover:before {
+    width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    background-color: rgb(233, 230, 231);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#guerra {
+    height: 300px;
+    width: 250px;
+}
